@@ -1,0 +1,19 @@
+database:
+  hikari:
+    maximum-pool-size: 50
+    minimum-idle: 20
+    max-lifetime: 180000
+    connection-timeout: 30000
+    idle-timeout: 30000
+    pool-prepared-statements: true
+    max-open-prepared-statements: 250
+  datasource-write:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/grmc?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=Asia/Seoul&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  datasource-read:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/grmc?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=Asia/Seoul&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    username: root
+    password: root
