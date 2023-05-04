@@ -10,6 +10,11 @@ subprojects {
     apply plugin: 'io.spring.dependency-management'
     sourceCompatibility = '17'
 
+    dependencies {
+        implementation 'com.querydsl:querydsl-jpa'
+        implementation 'com.querydsl:querydsl-apt:5.0.0'
+    }
+
     repositories {
         mavenCentral()
     }
