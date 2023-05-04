@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation project(':sample-mysql-library')
+    implementation project(':mysql-library')
     implementation project(':common-web-support')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'

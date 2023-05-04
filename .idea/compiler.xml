@@ -9,7 +9,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.0.6/40ac53fa1e5c53d15c7058603e26dd03a99223ae/spring-boot-configuration-processor-3.0.6.jar" />
         </processorPath>
         <module name="project_template.common-web-support.main" />
-        <module name="project_template.sample-mysql-library.main" />
+        <module name="project_template.mysql-library.main" />
         <module name="project_template.sample-app.main" />
       </profile>
     </annotationProcessing>
