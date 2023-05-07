@@ -17,3 +17,13 @@ database:
     jdbc-url: jdbc:mysql://localhost:3306/grmc?autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&useUnicode=true&characterEncoding=utf8&tinyInt1isBit=false&serverTimezone=Asia/Seoul&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
     username: root
     password: root
+
+auth:
+  jwt:
+    setting:
+      prefix: Bearer
+      secret: SampleAppKey!2023
+      subject: SampleSubject
+      issuer: SampleAppServer
+      expiration: 60
+      refresh-expiration: 2592000

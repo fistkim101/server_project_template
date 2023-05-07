@@ -4,7 +4,7 @@ rootProject.name = 'project_template'
 include('sample-app')
 
 // support
-include('common-web-support')
+include('common-web-support', 'auth-support')
 
 // domain
 
