@@ -11,6 +11,7 @@
         <module name="project_template.mysql-library.main" />
         <module name="project_template.sample-app.main" />
         <module name="project_template.common-web-support.main" />
+        <module name="project_template.notification-support.main" />
         <module name="project_template.auth-support.main" />
       </profile>
     </annotationProcessing>

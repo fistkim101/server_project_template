@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/auth-support" />
             <option value="$PROJECT_DIR$/common-web-support" />
             <option value="$PROJECT_DIR$/mysql-library" />
+            <option value="$PROJECT_DIR$/notification-support" />
             <option value="$PROJECT_DIR$/sample-app" />
           </set>
         </option>
